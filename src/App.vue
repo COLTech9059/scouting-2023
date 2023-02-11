@@ -35,7 +35,7 @@ img {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Calibri, Helvetica, sans-serif;
   background-color: var(--bg-color);
   margin: 0;
 }
