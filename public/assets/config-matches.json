@@ -6,9 +6,35 @@
       "name": "Setup+Autonomous",
       "widgets": [
         {
-          "name": "Scouter Name",
-          "type": "text",
-          "colspan": 2
+          "name": "Scout Name",
+          "type": "dropdown",
+          "options": [
+            "Aiden",
+            "Alycia",
+            "Angel",
+            "Badger",
+            "Bella",
+            "Christian",
+            "Davis",
+            "Ethan",
+            "Evan",
+            "Gibby",
+            "Logan",
+            "McKay",
+            "Bill",
+            "Robby",
+            "Rori",
+            "Ryder",
+            "Rylan",
+            "Sophie",
+            "Ty"
+          ],
+          "defaultOption": true,
+          "validation":
+          {
+            "comparison": "greater",
+            "value": -1
+          }
         },
         {
           "name": "Starting Position",
